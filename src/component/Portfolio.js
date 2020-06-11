@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 import {
   Box,
   Grid,
@@ -14,6 +15,7 @@ import {
 import Navbar from "./Navbar";
 import project1 from "../images/github-finder.jpg";
 import project2 from "../images/games.jpg";
+import HtmlCss from "../pages/HtmlCss";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -104,7 +106,7 @@ const Portfolio = () => {
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  project 3
+                  Html & CSS
                 </Typography>
                 <Typography component="p" variant="body2" color="textSecondary">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -115,7 +117,12 @@ const Portfolio = () => {
                 <Button size="small" color="primary">
                   Share
                 </Button>
-                <Button size="small" color="secondary">
+                <Button
+                  size="small"
+                  color="secondary"
+                  component={Link}
+                  to={"/htmlCss"}
+                >
                   Live Demo
                 </Button>
               </CardActions>
