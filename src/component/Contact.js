@@ -60,7 +60,7 @@ const messageStyles = {
   width: "70%",
   height: "5.5rem",
   background: "#E9E9E9",
-  color: "white",
+  color: "black",
   padding: "8px 12px",
   border: "none",
   margin: "0.5rem 0",
