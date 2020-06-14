@@ -1,7 +1,7 @@
 body {
   background: url("./images/computer-electronic.jpg") no-repeat center center
     fixed;
-  background: cover;
+  background-size: cover;
   -webkit-background: cover;
   -moz-background: cover;
   -o-background: cover;

@@ -5,7 +5,8 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#F5F5F5",
+    top: 100,
   },
   timeLine: {
     position: "relative",
@@ -15,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid lightgray",
+      border: "1px solid #333333",
       right: "40px",
       top: 0,
     },
@@ -34,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineItem: {
     padding: "1rem",
-    borderBottom: "2px solid white",
+    borderBottom: "2px solid gray",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
@@ -59,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "red",
+        borderColor: "lightgray",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
@@ -73,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
-    background: "blue",
+    background: "#C4C4C4",
     color: "gray",
     lineHeight: 1,
     padding: "0.5rem 0 1rem",

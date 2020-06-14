@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
+import { BottomNavigation, Button } from "@material-ui/core";
 import { GitHub, LinkedIn } from "@material-ui/icons";
 
 const useStyles = makeStyles({
@@ -24,16 +24,38 @@ const Footer = () => {
 
   return (
     <BottomNavigation width="auto" style={{ background: "#222" }}>
-      <BottomNavigationAction
+      <Button
+        target="_blank"
+        href="https://github.com/Barthelemy-dev"
         className={classes.root}
-        style={{ padding: 0 }}
-        icon={<GitHub />}
-      />
-      <BottomNavigationAction
+      >
+        <GitHub />
+      </Button>
+      <Button
+        target="_blank"
+        href="https://fr.linkedin.com/in/barth%C3%A9l%C3%A9my-de-violet-b754a427"
         className={classes.root}
-        style={{ padding: 0 }}
-        icon={<LinkedIn />}
-      />
+      >
+        <LinkedIn />
+      </Button>
+      {/* <a
+        href="https://github.com/Barthelemy-dev"
+        className={classes.root}
+        style={{ padding: "1rem" }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <GitHub />
+      </a>
+      <a
+        href="https://fr.linkedin.com/in/barth%C3%A9l%C3%A9my-de-violet-b754a427"
+        className={classes.root}
+        style={{ padding: "1rem" }}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <LinkedIn />
+      </a> */}
     </BottomNavigation>
   );
 };

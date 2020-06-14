@@ -7,7 +7,6 @@ import {
   AppBar,
   Toolbar,
   ListItem,
-  IconButton,
   ListItemText,
   Avatar,
   Divider,
@@ -15,6 +14,7 @@ import {
   Typography,
   Box,
   ListItemIcon,
+  IconButton,
 } from "@material-ui/core";
 import {
   Menu,
@@ -23,12 +23,16 @@ import {
   Apps,
   ContactMail,
   GitHub,
-  LinkedIn,
 } from "@material-ui/icons";
 import avatar from "../images/kisspng.png";
+import { NeuButton } from "neumorphism-react";
 
 //Create css styles
 const useStyles = makeStyles((theme) => ({
+  menuIcon: {
+    color: "#C55E00",
+    fontSize: "2rem",
+  },
   menuSliderContainer: {
     width: 250,
     background: "#ccc",
@@ -41,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "#e3f2fd",
+    color: "#4F555A",
   },
 }));
 
@@ -65,14 +69,6 @@ const menuItems = [
     listIcon: <ContactMail />,
     listText: "Contact",
     listPath: "/contact",
-  },
-  {
-    listIcon: <GitHub />,
-    listText: "Github",
-  },
-  {
-    listIcon: <LinkedIn />,
-    listText: "Linkedin",
   },
 ];
 
@@ -114,14 +110,31 @@ const Navbar = () => {
   return (
     <Fragment>
       <Box component="nav">
-        <AppBar position="static" style={{ background: "#7986cb" }}>
+        <AppBar position="static" style={{ background: "#595D5E" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <Menu style={{ color: "#3d5afe" }} />
+              {/* <NeuButton
+                width="60px"
+                height="40px"
+                color="#595D5E"
+                style={{ margin: "1rem" }}
+                onClick={toggleSlider("right", true)}
+              > */}
+              <Menu className={classes.menuIcon} />
+              {/* </NeuButton> */}
             </IconButton>
+            {/* <NeuButton
+              width="120px"
+              height="40px"
+              color="#595D5E"
+              revert
+              disabled
+              style={{ margin: "1rem", color: "white" }}
+            > */}
             <Typography variant="h5" style={{}}>
               BarthDev
             </Typography>
+            {/* </NeuButton> */}
             <MobilRightMenuSlider
               anchor="right"
               open={state.right}
