@@ -129,23 +129,25 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Bac
+              Scolarité
             </Typography>
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "lightgray" }}
+              style={{ color: "#272727" }}
             >
-              Compagny name where worked
+              2005-2011
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate veniam quod, provident amet eveniet fuga perspiciatis
-              officiis officia voluptas ducimus.
+              2005: Baccalauréat scientifique au lycée Edgar Poe à paris,
+              <br></br>
+              2005-2007: DUG cinéma à la Sorbonne Paris 1,<br></br> 2007-2009:
+              Ecole des psychologues Praticiens Paris,<br></br> 2009-2011: BTS
+              Opérateur de prise de vue à l'EMC Malakof
             </Typography>
           </Box>
 
@@ -154,7 +156,7 @@ const About = () => {
             align="center"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2010
+            2011
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -162,23 +164,25 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Psycho
+              Caméraman freelance
             </Typography>
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "lightgray" }}
+              style={{ color: "#272727" }}
             >
-              Compagny name where worked
+              2011-2016
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate veniam quod, provident amet eveniet fuga perspiciatis
-              officiis officia voluptas ducimus.
+              Caméraman / monteur<br></br>
+              Contrat d'apprentissage chez Actua film<br></br>
+              Assistant vidéo: direct en studio pour des chaines étrangères
+              <br></br>
+              Caméraman monteur sujet news et magazines
             </Typography>
           </Box>
           <Typography
@@ -186,7 +190,7 @@ const About = () => {
             align="center"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2015
+            DFQM
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -194,23 +198,21 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Cameraman
+              Realisateur Multicaméra
             </Typography>
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "lightgray" }}
+              style={{ color: "#272727" }}
             >
-              Compagny name where worked
+              Troupe Colette Roumanoff (2011-2013)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate veniam quod, provident amet eveniet fuga perspiciatis
-              officiis officia voluptas ducimus.
+              Captation multicaméra de pièce de théâtre sur support DVD
             </Typography>
           </Box>
           <Typography
@@ -218,7 +220,7 @@ const About = () => {
             align="center"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2020
+            Morgan Prod
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -226,23 +228,23 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Now ?
+              Assistant realisateur / caméraman
             </Typography>
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "lightgray" }}
+              style={{ color: "#272727" }}
             >
-              Compagny name where worked
+              Tournage de documentaire pour france télévision (2013-2015)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate veniam quod, provident amet eveniet fuga perspiciatis
-              officiis officia voluptas ducimus.
+              Le village préferé des français (france 2)<br></br>
+              La maison préfére des français (france 2) <br></br>
+              Crimes et Châtiments, Christophe Hondelatte (france 3)
             </Typography>
           </Box>
           <Typography
@@ -250,7 +252,7 @@ const About = () => {
             align="center"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2030
+            Agefi
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -258,23 +260,85 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Futur
+              Relisateur films institutionnel
             </Typography>
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "lightgray" }}
+              style={{ color: "#272727" }}
             >
-              Compagny name where worked
+              realisateur monteur de films institutionnel pour le journal
+              l'Agefi (2015-2018)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate veniam quod, provident amet eveniet fuga perspiciatis
-              officiis officia voluptas ducimus.
+              Tournage de film d'entreprise pour communication interne et
+              externe<br></br>
+              Plateaux itw
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            align="center"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            Grand Mercredi
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              Relisateur films institutionnel
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "#272727" }}
+            >
+              realisateur monteur de films institutionnel pour le media internet
+              et papier Grand mercredi (2017-2020)
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "gray" }}
+            >
+              Tournage de film d'entreprise pour communication interne et
+              externe<br></br>
+              Pastille internet<br></br>
+              Interview portrait<br></br>
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            align="center"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            Coding Academy
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              variant="h5"
+              align="center"
+              className={classes.subHeading}
+            >
+              Formation web developper frontend
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "gray" }}
+            >
+              Piscine PHP<br></br>
+              HTML & CSS<br></br>
+              Javascript<br></br>
+              Angular<br></br>
+              React<br></br>
             </Typography>
           </Box>
         </Box>

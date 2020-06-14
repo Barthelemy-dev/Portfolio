@@ -20,7 +20,7 @@ import paint from "../images/paint-yellow.jpg";
 
 const useStyles = makeStyles({
   mainContainer: {
-    background: "#233",
+    background: "#B3B4B3",
     height: "100%",
   },
   cardContainer: {
@@ -50,18 +50,20 @@ const Portfolio = () => {
                   Github Finder
                 </Typography>
                 <Typography component="p" variant="body2" color="textSecondary">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  voluptates culpa assumenda porro, perferendis nostrum!
+                  Github is incredible, but how do you find what you're looking
+                  for?
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button
-                  size="small"
-                  color="secondary"
-                  component={Link}
-                  to={"/github-finder"}
-                >
-                  Live Demo
+                <Button size="small" color="secondary">
+                  <a
+                    href="https://github-finder-fine.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Live Demo
+                  </a>
                 </Button>
               </CardActions>
             </CardActionArea>
@@ -80,7 +82,7 @@ const Portfolio = () => {
               ></CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5">
-                  Mini Game
+                  Mini Web Project
                 </Typography>
                 <Typography component="p" variant="body2" color="textSecondary">
                   You just need a finger, a smile and a mousse to play, you
@@ -88,11 +90,15 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
                 <Button size="small" color="secondary">
-                  Live Demo
+                  <a
+                    href="https://mini-web-project.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Live Demo
+                  </a>
                 </Button>
               </CardActions>
             </CardActionArea>
@@ -119,13 +125,15 @@ const Portfolio = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button
-                  size="small"
-                  color="secondary"
-                  component={Link}
-                  to={"/loan-calculator"}
-                >
-                  Live Demo
+                <Button size="small" color="secondary">
+                  <a
+                    href="https://loan-calculator-for-you.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Live Demo
+                  </a>
                 </Button>
               </CardActions>
             </CardActionArea>

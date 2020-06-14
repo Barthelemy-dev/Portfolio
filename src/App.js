@@ -5,8 +5,6 @@ import Home from "./component/Home";
 import About from "./component/About";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
-// import MainGithub from "./component/github/MainGithub";
-import LoanCalculator from "./pages/LoanCalculator";
 import "./App.css";
 
 function App() {
@@ -17,8 +15,6 @@ function App() {
       <Route exact path="/about" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
-      <Route exact path="/loan-calculator" component={LoanCalculator} />
-      {/* <Route exact path="/github-finder" component={MainGithub} /> */}
     </Fragment>
   );
 }
