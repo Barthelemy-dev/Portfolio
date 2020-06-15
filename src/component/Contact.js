@@ -1,26 +1,6 @@
 import React, { Fragment } from "react";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
-import { TextField } from "@material-ui/core";
-import Navbar from "./Navbar";
 
-const useStyles = makeStyles((theme) => ({
-  heading: {
-    color: "white",
-    textAlign: "center",
-    textTransform: "uppercase",
-  },
-  form: {
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    position: "absolute",
-  },
-  buttonSubmit: {
-    marginTop: "1rem",
-    color: "white",
-    borderColor: "purple",
-  },
-}));
+import Navbar from "./Navbar";
 
 const encode = (data) => {
   return Object.keys(data)

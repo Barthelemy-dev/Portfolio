@@ -146,7 +146,7 @@ const About = () => {
               2005: Baccalauréat scientifique au lycée Edgar Poe à paris,
               <br></br>
               2005-2007: DUG cinéma à la Sorbonne Paris 1,<br></br> 2007-2009:
-              Ecole des psychologues Praticiens Paris,<br></br> 2009-2011: BTS
+              Ecole des Psychologues Praticiens Paris,<br></br> 2009-2011: BTS
               Opérateur de prise de vue à l'EMC Malakof
             </Typography>
           </Box>
@@ -182,7 +182,7 @@ const About = () => {
               Contrat d'apprentissage chez Actua film<br></br>
               Assistant vidéo: direct en studio pour des chaines étrangères
               <br></br>
-              Caméraman monteur sujet news et magazines
+              Caméraman monteur sujets news et magazines
             </Typography>
           </Box>
           <Typography
@@ -212,7 +212,7 @@ const About = () => {
               align="center"
               style={{ color: "gray" }}
             >
-              Captation multicaméra de pièce de théâtre sur support DVD
+              Captations multi-caméra de pièces de théâtre sur support DVD
             </Typography>
           </Box>
           <Typography
@@ -235,16 +235,16 @@ const About = () => {
               align="center"
               style={{ color: "#272727" }}
             >
-              Tournage de documentaire pour france télévision (2013-2015)
+              Tournages de documentaires pour France Télévision (2013-2015)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Le village préferé des français (france 2)<br></br>
-              La maison préfére des français (france 2) <br></br>
-              Crimes et Châtiments, Christophe Hondelatte (france 3)
+              Le village préféré des français (France 2)<br></br>
+              La maison préférée des français (France 2) <br></br>
+              Crimes et Châtiments, Christophe Hondelatte (France 3)
             </Typography>
           </Box>
           <Typography
@@ -260,14 +260,14 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Relisateur films institutionnel
+              Relisateur films institutionnels
             </Typography>
             <Typography
               variant="body1"
               align="center"
               style={{ color: "#272727" }}
             >
-              realisateur monteur de films institutionnel pour le journal
+              Réalisateur monteur de films institutionnels pour le journal
               l'Agefi (2015-2018)
             </Typography>
             <Typography
@@ -275,7 +275,7 @@ const About = () => {
               align="center"
               style={{ color: "gray" }}
             >
-              Tournage de film d'entreprise pour communication interne et
+              Tournage de films d'entreprises pour communication interne et
               externe<br></br>
               Plateaux itw
             </Typography>
@@ -293,25 +293,25 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Relisateur films institutionnel
+              Relisateur films institutionnels
             </Typography>
             <Typography
               variant="body1"
               align="center"
               style={{ color: "#272727" }}
             >
-              realisateur monteur de films institutionnel pour le media internet
-              et papier Grand mercredi (2017-2020)
+              Realisateur monteur de films institutionnels pour le site internet
+              Grand mercredi (2017-2020)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "gray" }}
             >
-              Tournage de film d'entreprise pour communication interne et
+              Tournage de films d'entreprises pour communication interne et
               externe<br></br>
-              Pastille internet<br></br>
-              Interview portrait<br></br>
+              Pastilles internet<br></br>
+              Interviews portraits<br></br>
             </Typography>
           </Box>
           <Typography
