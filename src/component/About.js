@@ -260,7 +260,7 @@ const About = () => {
               align="center"
               className={classes.subHeading}
             >
-              Relisateur films institutionnels
+              Realisateur films institutionnels
             </Typography>
             <Typography
               variant="body1"
